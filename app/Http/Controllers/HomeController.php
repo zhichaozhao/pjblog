@@ -14,7 +14,11 @@ class HomeController extends Controller
     {
         $this->article = $article;
     }
-
+    
+    public function index()
+    {
+        return view('index');
+    }
     /**
      * Display the dashboard page.
      * 
